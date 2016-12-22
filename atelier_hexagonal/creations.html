@@ -1,0 +1,122 @@
+
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+		<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="creations.css" rel="stylesheet" type="text/css">
+    </head><body>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html" id="mag-name"><h1>L'ATELIER HEXAGONAL</h1></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+          <div class="grid-sizer"></div>
+		  <div class="grid-item">
+            <a href="article_creation.html#0"><img src="img/creations/table-basse-metis-bois-artisan-sur-mesure.jpg" /></a>
+          </div>
+		  <div class="grid-item">
+            <a href="article_creation.html#1"><img src="img/creations/chaise-charub-sur-mesure.jpg" /></a>
+          </div>
+		  <div class="grid-item">
+            <a href="article_creation.html#2"><img src="img/creations/cristal-benito-2.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/bibliotheque-zephyr-artisan-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/banc-banche-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/table-de-chevet-chevlivia-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/table-basse-metis-verre-artisan-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/tabouret-banjul-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/bureau-metis-bois-acier-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/bout-de-canape-cubcroi-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/chaise-chadro-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/table-de-chevet-bilbothe-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/table-chevet-metis-artisan-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/banc-banac-sur-mesure.jpg" /></a>
+          </div>
+          <div class="grid-item">
+            <a href="article_creation.html"><img src="img/creations/banc-banbrux-sur-mesure.jpg" /></a>
+          </div>
+        </div>
+
+
+        <footer class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="artisans.html"><h3 class="text-center">Artisans</h3></a>
+                        <a href="creations.html"><h3 class="text-center">Créations</h3></a>
+                        <a href="portraits.html"><h3 class="text-center">Portraits</h3></a>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="text-center">Réseaux sociaux</h3>
+                        <a href="#"><i class="fa fa-2x fa-fw fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-2x fa-facebook fa-fw"></i></a>
+                        <a href="#"><i class="fa fa-2x fa-fw fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-2x fa-fw fa-pinterest-p"></i></a>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="text-center">Newsletter</h3>
+                        <div class="col-mdt-3 ">
+                            <form role="form">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                        <span class="input-group-btn">
+                                            <a class="btn btn-default" type="submit">S'abonner</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="text-center">© 2016. Nom du site. Tous droits réservés. Contact : hello@domaine.fr</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script>
+          var $grid = $('.grid').masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+        // layout Isotope after each image loads
+        $grid.imagesLoaded().progress( function() {
+          $grid.masonry();
+        });  
+    </script>
+</body></html>

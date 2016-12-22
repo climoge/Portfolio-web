@@ -26,7 +26,7 @@ textarea {
 input[type="text"]:focus, 
 textarea:focus {
 	outline: 0;
-    border: 1px solid #3c9bc7;
+    border: 1px solid #86cdb2;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -42,7 +42,7 @@ button.btn {
     margin: 0;
     padding: 0 20px;
     vertical-align: middle;
-    background: #3c9bc7;
+    background: #86cdb2;
     border: 0;
     font-family: 'Lato', sans-serif;
     font-size: 22px;
@@ -85,13 +85,13 @@ button.btn:active {
 button.btn:focus {
 	outline: 0;
 	opacity: 0.6;
-	background: #3c9bc7;
+	background: #86cdb2;
 	color: #fff;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline: 0;
 	opacity: 0.6;
-	background: #3c9bc7;
+	background: #86cdb2;
 	color: #fff;
 }

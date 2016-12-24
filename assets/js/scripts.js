@@ -68,13 +68,6 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		$('nav').slideUp(function(){ $('.show-menu a').fadeIn(); });
 	});
-    
-    /*
-        Fullscreen backgrounds
-    */
-    $('.top-content').css("background","#3c9bc7");
-    $('.counters-container').backstretch("assets/img/backgrounds/2.jpg");
-    $('.our-motto-container').backstretch("assets/img/backgrounds/2.jpg");
 	
 	/*
 	    Testimonials

@@ -8,6 +8,10 @@
 	.section-description.col-lg-12 img {
 		padding: 0 120px;
 	}
+
+	.outerVideoWrapper {
+		padding: 0 120px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
